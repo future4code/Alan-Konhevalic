@@ -1,0 +1,17 @@
+h2 {
+    text-align: center;
+}
+
+ul {
+    padding: 48px;
+}
+
+ul li {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    padding: 24px;
+    font-size: 24px;
+    font-weight: 700;
+}
