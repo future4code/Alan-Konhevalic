@@ -1,0 +1,47 @@
+#learning {
+    position: relative;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #1bc4eb;
+    padding-top: 64px;
+}
+
+#learning h1 > a {
+    color: #081648;
+    margin: 8px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#learning h1 > a:hover {
+    background-color: skyblue;
+    border-radius: 8px;
+}
+#projects {
+    font-size: 24px;
+    background-color: #00bad5;
+    padding: 24px;
+    border-radius: 10px;
+    color: #081648;
+    font-weight: bold;
+}
+#grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+.right{
+    margin-right: 16px;
+    margin-left: auto;
+    margin: 30px;
+}
+
+.left {
+    margin-left: 16px;
+    margin-right: auto;
+    margin: 30px;
+}
+

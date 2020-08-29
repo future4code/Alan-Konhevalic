@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.landing{
+    vertical-align: middle;
+    position: relative;
+    width: 100%;
+    margin-top: 24px;
+    align-items: center;
+    
+}
+
+
+.landing h1, .landing p {
+    font-family: 'Imprima', sans-serif;
+    color: #004383;
+    margin-top: 12px;
+    text-align: left;
+    margin-left: 250px;
+}
+
+.landing > p {
+    font-size: 24px;
+}
+
+.landing > h1 {
+    font-size: 48px;
+}
+
+
+#presentation {
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: flex-end;
+    
+}
+
+div > img {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    margin-right: 300px;
+    
+}
+
+#img {
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+

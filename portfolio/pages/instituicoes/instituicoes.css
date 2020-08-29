@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+header nav ul {
+    justify-content: space-between;
+    margin-right: 50%;
+    margin-left: 0px;
+    border: 0px;
+}
+
+header nav ul a:hover {
+    background-color: skyblue;
+    border-radius: 8px;
+    
+}
+
+header nav ul li{
+    margin-left: 0px;
+    padding: 10px auto;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    list-style: none;
+    display: flex;   
+    justify-content: flex-start;
+    border: 0px;
+}
+header nav ul li span {
+    margin-top: 0px;
+    vertical-align: 10px;
+}
+
+header nav ul h1 {
+    padding-top: 22px;
+}
+
