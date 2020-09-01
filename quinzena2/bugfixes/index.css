@@ -88,8 +88,16 @@ div img {
 }
 
 #container-de-descricao>ol {
-    padding: 15px 0px;
-    
+    display: block;
+    padding-left: 40%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+#container-de-descricao>ol>li {
+    margin: 0px;
+    text-align: start;
 }
 
 #container-para-comprar {
