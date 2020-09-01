@@ -47,10 +47,13 @@ div img {
     position: absolute;
     margin-top: 13px;
     text-align: center;
+    cursor: pointer;
 }
 
 .botao-amarelo:hover {
     background-color: #c44f00;
+    transition: 400ms;
+    background-color: #2274a5;
 }
 
 .container {
@@ -120,7 +123,13 @@ td button {
     width: 150px;
     height: 30px;
     border-radius: 5px;
-    color: black;
+    color: white;
+    cursor: pointer;
+}
+
+td button:hover {
+    transition: 400ms;
+    background-color: #2274a5;
 }
 
 .container-do-search {
@@ -137,8 +146,11 @@ td button {
     border-radius: 5px;
     font-size: 10px;
     color: black;
+    cursor: pointer;
 }
 
 #back-button:hover {
-    background-color: #635a3d
+    background-color: #635a3d;
+    transition: 400ms;
+    background-color: #fe7e02;
 }
