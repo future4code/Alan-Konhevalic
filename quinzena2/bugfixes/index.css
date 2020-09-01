@@ -74,10 +74,12 @@ div img {
     color: white;
     display: block;
     padding-top: 100px;
+    font-size: 36px;
 }
 
 #container-de-descricao>ol {
     padding: 15px 0px;
+    
 }
 
 #container-para-comprar {
