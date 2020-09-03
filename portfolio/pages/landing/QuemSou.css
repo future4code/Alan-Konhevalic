@@ -1,0 +1,36 @@
+#profile {
+    position: relative;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #1bc4eb;
+    
+}
+
+#profile-picture img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 36px auto;
+    border-radius: 150px;
+}
+
+#profile p {
+    text-align: left;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 36px;
+    font-size: 24px;
+    background-color: #00bad5;
+    padding: 12px;
+    border-radius: 10px;
+    color: #081648;
+    font-weight: bold;
+}
+/*[7:23 PM, 8/28/2020] Giulia love of my life: 081648
+[7:23 PM, 8/28/2020] Giulia love of my life: 004383
+[7:23 PM, 8/28/2020] Giulia love of my life: 0070a5
+[7:24 PM, 8/28/2020] Giulia love of my life: 00a3da
+[7:24 PM, 8/28/2020] Giulia love of my life: 1bc4eb
+[7:24 PM, 8/28/2020] Giulia love of my life: 00bad5
+

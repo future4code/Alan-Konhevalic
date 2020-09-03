@@ -1,0 +1,21 @@
+p {
+    width: 100%;
+}
+
+h2, table {
+    background-color: honeydew;
+    width: 100%;
+    text-align: center;
+    padding: 68px;
+}
+
+
+
+table tr td img {
+
+    height: 48px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+

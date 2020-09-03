@@ -1,0 +1,61 @@
+.white-bg {
+    /*width: 100%;
+    align-items: center;
+    padding: 24px 48px;  fazendo apenas isso, ultrapassa o tamanho da tela*/
+    
+    position: relative;
+    align-items: left;
+    font-size: 16px;
+    background-color: white;
+    padding: 42px 48px;
+    color: #081648;
+    font-weight: 600;
+}
+
+.white-bg h1{
+    font-size: 72px;
+    margin: 2px auto ;
+}
+
+#labenu {
+    margin: 0px;
+    padding: 0px;
+}
+
+#inicio {
+    color: #081648;
+    font-size: 48px;
+    margin: 184px;
+}
+
+.white-bg-p {
+    width: 100%;
+    position: relative;
+    color: #004383;
+    text-align: left;
+    font-size: 36px;
+    margin: 8px 0px;
+}
+
+.white-bg a {
+    text-decoration: none;
+    color: #081648;
+    font-size: 36px;
+    display: flex;
+    margin: 8px auto;
+    margin-right: 60%;
+}
+
+.white-bg a:hover {
+    background-color: skyblue;
+    border-radius: 8px;
+}
+
+.project-description{
+    margin: 36px auto;
+    font-size: 24px ;
+}
+.project-description:hover {
+    background-color: skyblue;
+    border-radius: 8px;
+}

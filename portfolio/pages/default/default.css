@@ -1,0 +1,81 @@
+* {
+    font-family: 'Imprima', sans-serif;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;   
+    background-color: #00a3da;
+    width: 100%;
+}
+
+
+
+header nav ul {
+    position: relative;
+    list-style: none;
+    display: flex;   
+    justify-content: center;
+    
+}
+
+header nav ul li {
+    margin: 8px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+header nav ul li:hover {
+    background-color: skyblue;
+    border-radius: 8px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    
+}
+header nav ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    bottom: 0;
+    height: 72px;
+    position: relative;
+    width: 100%;
+    background-color: #00a3da;
+}
+
+footer h1 {
+    color: white ;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+
+}
+
+img {
+    width: 32px;
+    margin: 0px 32px;
+}
+
+button {
+    width: 144px;
+    display: inline-block;
+    margin: 12px;
+    margin-left: 196px;
+    font-size: 24px;
+    vertical-align: top;
+    font-weight: bolder;
+    color: #004383;
+    border-style: none;
+    border-radius: 4px;
+}

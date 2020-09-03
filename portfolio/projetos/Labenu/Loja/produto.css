@@ -1,0 +1,13 @@
+h2 {
+    text-align: center;
+}
+
+form div label {
+    align-content: space-between;
+    align-items: center;
+}
+
+.formulario {
+    display: inline;
+    align-content: space-between;
+}
