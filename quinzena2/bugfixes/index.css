@@ -1,0 +1,174 @@
+/** 
+  *
+  *  ESTILOS GERAIS 
+  *
+  **/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Imprima', sans-serif;
+}
+
+h2 {
+    background-color: #fe7e02;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    height: 40px;
+    width: 500px;
+    border-radius: 8px;
+    border: 0.5px solid;
+    outline: 0px;
+    border-color: #414141;
+    font-size: 24px;
+}
+
+button:focus {
+    color: white;
+}
+
+img {
+    width: 100px;
+}
+
+div>p:first-child {
+    display: inline;
+}
+
+div img {
+    background: white;
+}
+
+.botao-amarelo {
+    background-color: #ffaf43;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    margin-top: 13px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.botao-amarelo:hover {
+    background-color: #c44f00;
+    transition: 400ms;
+    background-color: #2274a5;
+}
+
+.container {
+    height: 500px;
+    text-align: center;
+}
+
+.icone {
+    height: 15px;
+    width: 15px;
+}
+
+
+/** 
+  *
+  *  ESTILOS HOME 
+  *
+  **/
+
+#container-de-descricao {
+    background-color: #2274a5;
+    color: white;
+    display: block;
+    padding-top: 100px;
+    font-size: 36px;
+}
+
+#container-de-descricao>ol {
+    display: block;
+    padding-left: 40%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+#container-de-descricao>ol>li {
+    margin: 0px;
+    text-align: start;
+}
+
+#container-para-comprar {
+    background-color: #e7eb90;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#container-para-comprar>p {
+    color: #c44f00;
+    padding: 100px 0;
+    font-size: 60px;
+    
+}
+
+
+
+
+/**
+  *
+  *  ESTILOS COMPRAR 
+  *
+  **/
+
+div:nth-child(2),
+div:last-child {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+    font-size: 24px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+td button {
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+td button:hover {
+    transition: 400ms;
+    background-color: #2274a5;
+}
+
+.container-do-search {
+    margin-top: 20px;
+    height: 100px;
+}
+
+
+#back-button {
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+    margin-left: 350px
+}
+
+#back-button:hover {
+    background-color: #635a3d;
+    transition: 400ms;
+    background-color: #fe7e02;
+}
