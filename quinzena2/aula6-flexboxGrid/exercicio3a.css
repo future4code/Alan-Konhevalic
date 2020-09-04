@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    color: white;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    
+}
+
+#top-container {
+    height: 50px;
+    display: flex;
+}
+
+.green-background {
+    background-color: green;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yellow-background {
+    background-color: yellow;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pink-background {
+    background-color: fuchsia;
+    display: flex;
+    flex-grow: 1.5;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+}
+
+#middle-container {
+    display: flex;
+    flex-grow: 0.5;
+    justify-content: space-between;
+}
+
+#content2 {
+    display: flex;
+    width: 50%;
+}
+
+.blue-background {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+}
+
+#blank {
+    display: flex;
+    width: 25%;
+}
+
+#vertical-middle-container {
+    width: 25%;
+}
+
+#image {
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+
+.red-background {
+    background-color: red;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items:  center;
+    justify-content: center;
+}
+
+#extra {
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+
+.lightgreen-background {
+    background-color: lightgreen;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items:  center;
+    justify-content: center;
+}
+
+
+
+.purple-background {
+    background-color: purple;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
