@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f8f8f8;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    border: 1px solid cadetblue;
+    background-color: white;
+}
+
+article {
+    margin: 16px;
+    margin-bottom: 2px;
+}
+
+video {
+    height: 100px;
+    width: 200px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    width: 100%;
+    margin-top: 10%;
+    row-gap: 36px;
+    column-gap: 36px;
+    text-align: center;
+    justify-content: center;
+    
+
+}
