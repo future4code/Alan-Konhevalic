@@ -1,0 +1,60 @@
+/*estilização para area de cupons*/
+#cupons {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 0 36px;
+    background-color: #bbafa8;
+    border-radius: 16px;
+}
+
+/*estilização do titulo da area de cupons*/
+#cupons h3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 18px auto;
+    text-align: center;
+}
+
+/*descrição/propaganda para pessoa querer utilizar cupons*/
+#find-cupons {
+    display: flex;
+    flex-flow: row;
+    margin: 12px 36px 12px 30px;
+    align-items: center;
+}
+
+/*definindo tamaho da imagem de cupons*/
+#find-cupons img {
+    width: 40px;
+    height: 40px;
+}
+
+/*espaço entre imagem de cupons e texto*/
+#find-cupons p {
+    margin-left: 24px;
+}
+
+/*estilização do botao de cupons*/
+#cupons > button {
+    width: 40%;
+    margin: 0 auto 18px auto;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #e5e0dd;
+    border: none;
+}
+
+
+@media screen and (min-width: 1039px) {
+
+    #cupons {
+        position: absolute;
+        top: 300px;
+        left: 55%;
+        width: 400px;
+        justify-content: center;
+
+    }
+}

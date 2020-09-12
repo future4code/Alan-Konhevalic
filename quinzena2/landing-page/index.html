@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  user-scalable=no">
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="cupons.css">
+    <link rel="stylesheet" href="restaurant-list.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <title>4food</title>
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <ul>  
+                <li>
+                    <input type="checkbox" id="check">
+                    <label for="check"><img src="./assets/cardapio.svg" alt="Menu-lateral"></label>
+                    <aside>
+                        <nav>
+                            <li>Cadastre-se</li>
+                            <li>Restaurante</li>
+                            <li>Entregador</li>
+                            <li>Trabalhe conosco</li>
+                        </nav>
+                    </aside>
+                </li>
+                <li>
+                    <button type="submit">Entrar</button>
+                </li>
+            </ul>
+        </nav>
+        <div id="logo">
+            <img src="./assets/4food.png" alt="Logo-For-Food">
+        </div>
+    </header>
+
+    <main>
+        <section >
+            <article id="cupons">
+                <div id="title-cupons">
+                    <h3>Encontre cupons e utilize-os!</h3>
+                </div>
+                <div id="find-cupons">
+                    <img src="./assets/cupom.png" alt="Cupom">
+                    <p>Com cupons, sua compra fica mais barata e gostosa.</p>
+                </div>
+                
+                <button>Vasculhar cupons</button>
+            </article>
+        </section>
+
+        <section id="restaurant-list">
+            <article>
+                <h2>Os restaurantes pertinhos da sua fome</h2>
+                <section>
+                    <li class="restaurant">
+                        <img src="./assets/fast-food.svg" alt="Mequi Donalds">
+                        <p>Rede de Fast-foods</p>
+                    </li>
+                    
+                    <li class="restaurant">
+                        <img src="./assets/noodles.svg" alt="China in Box">
+                        <p>Comidas orientais</p>
+                    </li>
+
+                    <li class="restaurant">
+                        <img src="./assets/habibs.webp" alt="Habibs">
+                        <p>Sfihas</p>
+                    </li>
+
+                    <li class="restaurant">
+                        <img src="./assets/ice-cream.svg" alt="Sorvetes">
+                        <p>Sorveterias</p>
+                    </li>
+                </section>
+            </article>
+        </section>
+        <div class="search-restaurant">
+            <fieldset>
+                <input type="text" name="search" id="search" placeholder="Encontre aqui seu restaurante favorito">
+                <button type="submit">Encontrar restaurante</button>
+            </fieldset>
+        </div>
+    </main>
+</body>
+
+
+<footer>
+    <section>
+        <article>
+            <h2>4FOOD</h2>
+            <p>Entre em contato</p>
+            <p>Trabalhe conosco</p>
+            <p>Saiba mais</p>
+        </article>
+        
+    </section>
+    <hr>
+    <section>
+        <article>
+            <h2>Sobre nós</h2>
+            <p>Cadastre-se</p>
+            <p>Como pedir</p>
+        </article>
+        
+    </section>
+    <hr>
+    <section id="social">
+        <h2>Social</h2>
+        <article>
+            <a href="http://instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/instagram.png" alt="Instagram">
+            </a>
+            <p>Instagram</p>
+        </article>
+        <article>
+            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/facebook.png" alt="">
+            </a>
+            <p>Facebook</p>
+        </article>
+        <article>
+                <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/twitter.png" alt="Twitter">
+            </a>
+            <p>Twitter</p>
+            <hr>
+        </article>
+    </section>
+
+    <section></section>
+
+    <section id="developer">
+        <p>Desenvolvido por Alan Konhevalic <a href="http://github.com/konhevalic" target="_blank" rel="noopener noreferrer"><img src="./assets/github.svg" alt="github"></a> | Labenu</p>
+    </section>
+</footer>
+
+</html>
