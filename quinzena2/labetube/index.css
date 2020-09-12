@@ -4,8 +4,8 @@
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    max-width: 100vw;
     background-color: #f8f8f8;
 }
 
@@ -13,8 +13,11 @@ body {
 section {
     display: flex;
     justify-content: center;
+    align-content: center;
+    align-items: center;
     border: 1px solid cadetblue;
     background-color: white;
+    margin: auto;
 }
 
 article {
@@ -28,14 +31,19 @@ video {
 }
 
 main {
+    display: flex;
+    flex-grow: 1;
+    min-height: 100vh;
+}
+
+#container {
     display: grid;
+    margin: 0;
     grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
     width: 100%;
-    margin-top: 10%;
     row-gap: 36px;
     column-gap: 36px;
     text-align: center;
     justify-content: center;
-    
-
 }
