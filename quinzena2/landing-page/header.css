@@ -1,0 +1,118 @@
+/*configurações header*/
+header {
+    background-color: #ffffff;
+    display: flex;
+    width: 100vw;
+}
+
+/*configuraçoes nav*/
+header > nav {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+
+/*deixar os itens um em cada lado do header*/
+header > nav > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5e0dd;
+    height: 80px;
+
+}
+
+/*colocando margem nos itens e centralizando-os verticalmente*/
+header > nav > ul > li {
+    list-style: none;
+    display: flex;
+    margin-right: 12px;
+    margin-left: 12px;
+    height: 36px;
+    align-items: center;
+}
+
+/*estilização botão para login do header*/
+header nav ul li button {
+    padding: 6px;
+    border-radius: 4px;
+    background-color: #bbafa8;
+    border: none;
+    width: 70px;
+    height: 40px;   
+    transition: 0.3;
+}
+
+header nav ul li button:hover {
+    background-color: #5a5a5a;
+    color: white;
+}
+
+/*estilizando logo de apresentação*/
+
+
+@media screen and (max-width: 1039px) {
+    #logo {
+        display: flex;
+        width: 400px;
+        height: 400px;
+        justify-content: center;
+        margin: 40px auto 0px auto;
+    }
+    
+    #logo img {
+        height: 400px;
+    }
+}
+
+/*para telas acima de 1039*/
+@media screen and (min-width: 1039px) {
+
+    header nav {
+        z-index: 2;
+    }
+
+    /*configura a tag ul do cabeçalho, deixando tudo para a direita e centralizado verticalmente*/
+    header > nav > ul {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        background-color: #e5e0dd;
+        height: 70px;
+        align-items: center;
+    }
+    /*configura a tag li do cabeçalho, margin, height e alinhamento*/
+    header > nav > ul > li {
+        list-style: none;
+        margin: 0 24px 0 6px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*deixa os itens do antigo menu lateral em linha*/
+    header > nav > ul > li > aside > nav {
+        display: flex;
+    }
+    /*espaçamento entre items*/
+    header > nav > ul > li > aside > nav > li {
+        padding: 24px;
+    }
+
+    /*posiciona a logo na lateral esquerda*/
+    #logo {
+        display: flex;
+        margin-left: 200px;
+        margin-top: 70px;
+        text-align: left;
+    }
+     #logo img {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 70px;
+        text-align: left; 
+     }
+    
+    
+}

@@ -1,0 +1,85 @@
+
+
+
+@media screen and (max-width: 1039px) {
+    /*tamanho icone sanduiche*/
+    header label img {
+        height: 30px;
+        width: 30px;
+    }
+
+    /*input check none, pois o icone fica como responsavel
+    da função de check*/
+    #check {
+        display: none;
+    }
+
+    /*janela do menu lateral*/
+    header > nav > ul > li > aside > nav {
+        width: 200px;
+        left: -212px;
+        display: block;
+        position: absolute;
+        top: 80px;
+        background-color: #e5e0dd;
+    }
+
+    /*margin dos textos do sidebar e cor*/
+    header > nav > ul > li > aside > nav > li {
+        padding: 12px;
+        background-color: #7f5f4f;
+        color: white;
+        transition: 0.2s;
+    }
+
+    /*quando passar o mouse em cima, aplicará outra cor de background*/
+    header > nav > ul > li > aside > nav > li:hover {
+        background-color: #5a5a5a;
+    }
+
+    /*quando o icone estiver clicado, ira aplicar as propriedades no aside*/
+    #check:checked ~ aside {
+        transform: translateX(200px);
+        display: block;
+        position: absolute;
+        top: 0px;
+        background-color: #e5e0dd;
+        transition: all 0.2s linear;
+    }
+
+    /*quando nao estiver clicado, aplica-se essas porpriedades*/
+    #check:not(:checked) ~ aside {
+        display: block;
+        position: absolute;
+        transition: all 0.2s linear;
+        top: 0px;
+    }
+
+}
+/*para telas acima de 1039*/
+@media screen and (min-width: 1039px) {
+    /*botão sanduiche desaparece*/
+    header > nav > ul > li > label {
+        display: none;
+    }
+    /*botão sanduiche desaparece*/
+    header > nav > ul > li > input {
+        display: none;
+    }
+
+    /*estilização do menu de navegação*/
+    header > nav > ul > li > aside > nav > li {
+        padding: 12px;
+        color: #613a24; 
+        transition: 0.3s;
+        border-radius: 4px;
+        margin: 2px;
+    }
+
+    /*quando passar o mouse em cima, aplicará outra cor de background*/
+    header > nav > ul > li > aside > nav > li:hover {
+        background-color: #5a5a5a;
+        color: white;
+    }
+}
+    

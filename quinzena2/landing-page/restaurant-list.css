@@ -1,0 +1,119 @@
+/*configurações da seção da lista de restaurantes*/
+#restaurant-list {
+    display: flex;
+    margin: 18px auto;
+    color: #613a24;
+}
+
+/*configuração para disposição da lista*/
+#restaurant-list article {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+/*estilização do título da lista de restaurantes*/
+#restaurant-list h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 16px;
+    margin-left: 30px;
+    width: 80%;
+    text-align: left;
+}
+
+/*estilização de cada item da lista de restaurantes*/
+.restaurant {
+    display: flex;
+    flex-flow: row;
+    margin: 12px 36px 12px 30px;
+    align-items: center;
+    
+}
+
+/*estilização do texto*/
+.restaurant > p {
+    display: flex;
+    text-align: left;
+    margin-left: 20%;
+}
+
+/*estilização do icone do restaurante*/
+.restaurant > img {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+/*estilização para busca de restaurantes*/
+.search-restaurant input {
+    display: flex;
+    height: 50px;
+    width: 80%;
+    border-radius: 4px;
+    border: 2px solid #613a24;
+    margin-bottom: 8px;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 4px;
+ 
+}
+/*estilização do botão de busca de restaurantes*/
+.search-restaurant button {
+    display: flex;
+    height: 50px;
+    width: 81%;
+    align-items: center;
+    border-radius: 4px;
+    border: 2px solid #bbafa8;
+    background-color: #bbafa8;
+    margin: 0 auto;
+    font-size: 16px;
+    justify-content: center;
+}
+
+
+fieldset {
+    border: none;
+}
+
+
+@media screen and (min-width: 1039px) {
+    /*configura margens do titulo da lista de restaurantes*/
+    #restaurant-list h2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    /*separa cada restaurante em 4 colunas iguais*/
+    #restaurant-list article section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    /*centraliza campo de busca e botão verticalmente*/
+    fieldset {
+        display: inline;
+        width: 100%;
+        align-items: center;
+        align-content: center;
+        margin: 0;
+        text-align: center;
+    }
+   /*estilização para busca de restaurantes*/
+    .search-restaurant input {
+        display: inline;
+        width: 40%;
+        margin: 0;
+      
+    
+    }
+    /*estilização do botão de busca de restaurantes*/
+    .search-restaurant button {
+        display: inline;
+        width: 200px;
+        margin: 0;
+        
+    }
+}
+

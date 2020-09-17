@@ -1,0 +1,14 @@
+/*informando para a pagina o espaço que deve ocupar*/
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+/*colocando o fluxo da pagina em coluna,
+para que as sections nao fique uma do lado da outra*/
+main {
+    display: flex;
+    flex-flow: column;
+}
+
+

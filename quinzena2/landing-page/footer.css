@@ -1,0 +1,92 @@
+/*rodapé da pagina*/
+footer {
+    margin: 24px 36px;
+    color: #613a24; 
+    display: flex;
+    flex-flow: column;
+    
+}
+
+/*margem superior e inferior dos titulos 4FOOD, Sobre nós e Social*/
+footer h2 {
+    margin: 12px 0px 6px 0px;
+}
+
+/*linha horizontal para separar as sections, apenas para design*/
+footer hr {
+    margin-top: 12px;
+}
+
+/*configuração para cada rede social fique em uma linha separada*/
+#social {
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+}
+
+/*os itens que compões article fiquem na mesma linha e centralizados verticalmente*/
+#social article {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin: 6px 0;
+}
+
+/*definindo tamanho dos icones das redes sociais, e margem lateral*/
+#social img {
+    background-color: #6a453b;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin: 0;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+/*dimensiona tamanho do icone de github do rodape*/
+#developer img {
+    height: 30px;
+    width: 30px;
+}
+
+#developer p {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
+
+
+/*texto das redes sociais com margin esquerda*/
+#social p {
+    margin-left: 12px;
+}
+
+@media screen and (min-width: 1039px) {
+    /*separar sections do rodapé em 3 colunas iguais*/
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+    }
+
+    footer h2 {
+        text-align: center;
+    }
+
+    footer section {
+        align-content: center;
+    }
+
+    footer p,
+    #social article{
+        margin-left: 35%;
+    }
+
+    hr {
+        display: none;
+    }
+
+    
+}
