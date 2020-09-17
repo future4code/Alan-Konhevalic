@@ -1,0 +1,45 @@
+header {
+    width: 100%;
+    display: block;
+    height: 50px;
+    background-color: lightblue;    
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    display: block;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 16px;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
