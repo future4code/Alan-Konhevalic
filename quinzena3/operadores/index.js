@@ -1,97 +1,120 @@
-console.log("Oie, eu só sirvo pra saber se as coisas funcionaram!")
+/**
+ * Exercício 1) Irá imprimir de 1 a 
+ * 
+ * Exercício 2) 
+ * a)Irá imprimir números acima de 18
+ * b) Não, pois precisa colocar o comprimento do array, como mostrado no código abaixo:
+ * const lista = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30]
+for (let numero=0; numero < lista.length; numero++) {
+  
+		console.log(lista[numero])
+}
 
+
+Desafio 1) Imprime 4 linhas de *
+ */
+ 
+/**
+ * Exercício 3
+ * a) Imprime o array completo
+ * const array = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
+
+    for (let i=0; i<array.length; i++) {
+    console.log(array[i])
+}
+
+b) Imprime o array divido por 10
+const array = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
+
+for (let i=0; i<array.length; i++) {
+    console.log(array[i]/10)
+}
+
+c) Imprime em um novo array apenas os pares
+const array = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
+const arrayPares = []
+for (let i=0; i<array.length; i++) {
+    if (array[i]%2==0) {
+        arrayPares.push(array[i])
+    }
+}
+console.log(arrayPares)
+
+d)Imprime o index do array com seu respectivo valor
+const array = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
+const arrayString = []
+for (let i=0; i<array.length; i++) {
+    let string = String(array[i])
+    arrayString.push("o elemendo do index " + i + " é: " + string)
+    }
+console.log(arrayString)
+
+e)Maior e menor número
+const array = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
+let valorMinimo = 500
+let valorMaximo = 0
+
+for (let numero of array) {
+    if(numero > valorMaximo) {
+        valorMaximo = numero
+    }
+    if (numero < valorMinimo) {
+        valorMinimo = numero  
+    }
+}
+console.log(`O maior número é ${valorMaximo} e o valor mínimo é ${valorMinimo}`);
+ */
+
+ /**
+  * Desafio 2
+  * const numero = Number(prompt("Digite um número para outro jogador adivinhar: "))
+let adivinhar = Number(prompt("Tente adivinhar o número do seu amigo"))
+let i = 0
+
+while (adivinhar != numero) {
+    if (adivinhar < numero) {
+        adivinhar = prompt(`O número chutado foi: ${adivinhar}, sendo menor do que deveria ser.`)
+    } else if (adivinhar > numero) {
+        adivinhar = prompt(`O número chutado foi: ${adivinhar}, sendo maior do que deveria ser.`)
+    }
+    i++
+    } 
+
+alert("Uauuu acertou, seus poderes de adivinhação são ótimos. Você fez " + i + " tentativas")
+
+
+  */
+
+/**
+ * Desafio 3
+ */
+
+
+var aleatorio = Number(console.log(Math.floor(Math.random()*100)+1))
+var adivinhar = Number(prompt("Tente adivinhar o número do seu amigo"))
+
+console.log(typeof(aleatorio))
+console.log(typeof(adivinhar))
+
+if (aleatorio === adivinhar) {
+    console.log("Voce acertou")
+} else {
+    console.log("Voce errou")
+}
 
 /*
+let adivinhar = Number(prompt("Tente adivinhar o número do seu amigo"))
+let i = 0
 
-1.a) false
-1.b) false
-1.c) true
-1.d) boolean
+while (adivinhar != aleatorio) {
+    if (adivinhar < aleatorio) {
+        adivinhar = prompt(`O número chutado foi: ${adivinhar}, sendo menor do que deveria ser.`)
+    } else if (adivinhar > aleatorio) {
+        adivinhar = prompt(`O número chutado foi: ${adivinhar}, sendo maior do que deveria ser.`)
+    }
+    i++
+    } 
 
-*/
-
-
-/*
-
-2.a) undefined
-2.b) null
-2.c) 11
-2.d) 3
-2.e) [3, 19, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-2.f) 9
-
+alert("Uauuu acertou, seus poderes de adivinhação são ótimos. Você fez " + i + " tentativas")
 
 */
-
-/* Escrita de código: */
-
-/*
-//1.a)
-let idade = Number(prompt("Qual sua idade?"))
-
-//1.b)
-let idadeAmigo = Number(prompt("Qual a idade do seu melhor amigo?"))
-
-//1.c)
-idade >= idadeAmigo == true
-let result = idade > idadeAmigo
-console.log("Sua idade é maior que a do seu amigo?", result)
-
-//1.d)
-let diferenca = idade - idadeAmigo
-console.log("A diferença de idade é: ", diferenca)
-*/
-
-
-/*
-//2.a)
-
-let numero = Number(prompt("Insira um número par: "))
-
-//2.b)
-let resto = numero%2
-console.log(resto)
-
-//2.c)
-//O resto sempre será 0 
-
-
-//2.d)
-//O resto sempre será 1.
-*/
-
-/*
-//3.a)
-let listaDeTarefas = []
-
-//3.b)
-let pergunta1 = prompt("Você tomou banho hoje?")
-let pergunta2 = prompt("Você entregou a atividade hoje?")
-let pergunta3 = prompt("Você descansou hoje?")
-
-listaDeTarefas[0] = pergunta1
-listaDeTarefas[1] = pergunta2
-listaDeTarefas[2] = pergunta3
-
-//3.c)
-console.log(listaDeTarefas)
-
-//3.d)
-let tarefaRealizada = Number(prompt("Qual tarefa você já realizou hoje? Digite 0, 1 ou 2"))
-
-//3.e)
-listaDeTarefas.splice(tarefaRealizada, 1)
-
-
-console.log(listaDeTarefas)
-*/
-
-/*
-//4)
-let nome = prompt("Qual seu nome?")
-let email = prompt("Qual seu email?")
-
-alert("O email " + ' ' + email + ' ' + "foi cadastrado com sucesso. Seja bem-vindo(a)," + ' ' + nome)
-*/
-
-
