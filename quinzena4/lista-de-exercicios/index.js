@@ -70,10 +70,7 @@ if ( (a==b && b==c && a==c)) {
  * 
  * 5) 
  * 
- * 
- */
-
-const primeiroNumero = 15
+ * const primeiroNumero = 15
 const segundoNumero = 30
 
 if (primeiroNumero > segundoNumero) {
@@ -102,3 +99,76 @@ if (primeiroNumero > segundoNumero) {
     diferenca = segundoNumero - primeiroNumero
     console.log("A diferença entre eles é: " + diferenca)
 }
+ * 
+ * 
+ * 
+ */
+
+
+/**
+ * Exercícios de funções
+ * 
+ * 1) 
+ * function segundoMaiorEMenor(array){
+    //declaração de variaveis
+    let maiorNumero = 0
+    let menorNumero = Infinity
+    let segundoMaior = 0
+    let segundoMenor = Infinity
+    let novoArray = []
+    //percorre o array do parametro da função
+    for (let i=0; i< array.length; i++){
+        //atribui às variaveis o maior e menor número
+        if (array[i] > maiorNumero) {
+            maiorNumero = array[i]   
+        } 
+        if (array[i] < menorNumero ){
+            menorNumero = array[i]
+        }
+    }
+    //console.log(maiorNumero)
+    //console.log(menorNumero)
+
+    //percorre novamente o array
+    for (let j=0; j<array.length; j++){
+        //se os valores forem menores que o maior numero e maiores que o menor
+        if ( (array[j] < maiorNumero) && (array[j]>menorNumero) ) {
+            //adiciona no novo array de valores sem os maior e menor do array
+            novoArray.push(array[j])
+        }
+    }
+    //console.log(novoArray)
+    //percorre o novo array
+    for (let k=0; k< novoArray.length; k++){
+        if (novoArray[k] > segundoMaior) {
+            //atribui para as variaveis o novo maior e menor do novo array
+            segundoMaior = novoArray[k]   
+        } 
+        if (novoArray[k] < segundoMenor ){
+            segundoMenor = novoArray[k]
+        }
+    }
+    console.log("O segundo maior número é: " + segundoMaior)
+    console.log("O segundo menor número é: " + segundoMenor)
+    
+
+}
+
+segundoMaiorEMenor([200, 20, 30, 40, 50, 60])
+ * 
+ * 
+ * 
+ * 2)
+ * const funcaoAlert = function(){
+    return alert("Hello Future4")
+}
+
+const invocacao = funcaoAlert()
+ */
+
+
+
+
+
+
+
