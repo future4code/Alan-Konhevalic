@@ -169,6 +169,67 @@ const invocacao = funcaoAlert()
 
 
 
+/**
+ * Exercicios de objetos
+ * 
+ * 1)Arrays são utilizados quando queremos um objeto de acesso numeral (atraves do número do indice)
+ *   Objetos são utilizados quando queremos atribuir uma propriedade para um elemento, e acessamos através do nome da propriedade
+ * 
+ * 2)
+ * function criaRetangulo(lado1, lado2) {
+        let retangulo =  {
+        lado1: lado1,
+        lado2: lado2,
+        perimetro: 2*(lado1 + lado2),
+        area: lado1 * lado2
+    }
+    return retangulo
+}
+
+console.log(criaRetangulo(5,5))
+ * 
+ * 
+ * 
+ * 3)
+ * 
+ * 
+ * 
+let filme = {
+    titulo: "Interestelar",
+    ano: 2014,
+    diretor: "Christopher Nolan",
+    atoresEAtrizes: ["Matthew McConaughey", "Anne Hathaway", "Michael Caine", "John Lithgow"]
+}
+
+console.log("Venha assitir ao filme " + filme.titulo + 
+            ", de " + filme.ano + ", dirigido por " + filme.diretor + 
+            " e estrelado por " + filme.atoresEAtrizes
+            )
+            
+
+ * 
+ * 4)
+ * let pessoa = {
+    nome: "Alan Konhevalic",
+    idade: 23,
+    email: "alan.patrick.konhevalic@gmail.com",
+    endereco: 'Manoel Borba Gato, 302'
+}
+
+function anonimizarPessoa(){
+    let pessoaAnonima = {
+        nome: "ANÔNIMA",
+        idade: pessoa.idade,
+        email: pessoa.email,
+        endereco: pessoa.endereco
+    }
+    return pessoaAnonima
+}
+
+console.log(anonimizarPessoa())
+ * 
+ */
+
 
 
 
