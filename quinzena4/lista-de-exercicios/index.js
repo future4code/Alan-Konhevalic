@@ -13,3 +13,92 @@
  */
 
 
+/**
+ * Exercícios de lógica de programação
+ * 
+ * 1)
+ * let array = [10, 20, 30, 40, 50]
+primeira forma:
+for (let i=0; i< array.length; i++) {
+    console.log(array[i])
+}
+
+segunda forma:
+for (let numero in array) {
+    console.log(array[numero])
+}
+
+terceira forma:
+let numeros = 0
+while (numeros < array.length) {
+    numeros++
+    console.log(array[numeros])
+}
+ * 
+ * 
+ * 2) a) false
+ * 2) b) true
+ * 2) c) true
+ * 2) d) true
+ * 2) e) false
+ * 
+ * 
+ * 3) Não funciona pois não está incrementando a variável i. Adicionando uma linha para incremento, o código funciona.
+ *    
+ * 
+ * const quantidadeDeNumerosPares = 5
+let i = 0
+while(i < quantidadeDeNumerosPares) {
+    i++
+  console.log(i*2)
+}
+
+ * 
+ * 4) 
+ * 
+ * const a = 10
+const b = 10
+const c = 10
+
+if ( (a==b && b==c && a==c)) {
+    console.log("O triangulo é equilatero")
+} else if ( (a==b || b==c || a==c) ) {
+    console.log("O triângulo é isosceles.")
+} else if ( (a!=b && b!=c && a!=c) ) {
+    console.log("O triângulo é escaleno")
+}
+ * 
+ * 5) 
+ * 
+ * 
+ */
+
+const primeiroNumero = 15
+const segundoNumero = 30
+
+if (primeiroNumero > segundoNumero) {
+    console.log("O maior é: " + primeiroNumero)
+} else {
+    console.log("O maior é: " + segundoNumero)
+}
+
+if (primeiroNumero%segundoNumero ==0 ) {
+    console.log(primeiroNumero + " é divisível por " + segundoNumero)
+} else {
+    console.log(primeiroNumero + " não é divisível por " + segundoNumero)
+}
+
+if (segundoNumero%primeiroNumero == 0) {
+    console.log(segundoNumero + " é divisível por " + primeiroNumero)
+} else {
+    console.log(segundoNumero + " não é divisível por " + primeiroNumero)
+}
+
+let diferenca = 0
+if (primeiroNumero > segundoNumero) {
+    diferenca = primeiroNumero - segundoNumero
+    console.log("A diferença entre eles é: " + diferenca)
+} else {
+    diferenca = segundoNumero - primeiroNumero
+    console.log("A diferença entre eles é: " + diferenca)
+}
