@@ -7,6 +7,7 @@ import iconeCoracaoBranco from '../../img/favorite-white.svg'
 import iconeCoracaoPreto from '../../img/favorite.svg'
 import iconeComentario from '../../img/comment_icon.svg'
 import {SecaoComentario} from '../SecaoComentario/SecaoComentario'
+import { tsImportEqualsDeclaration } from '@babel/types'
 
 class Post extends React.Component {
   //declaração estado inicial 
@@ -21,6 +22,7 @@ class Post extends React.Component {
     numeroComentarios: 0,
 
   }
+
 
   onClickCurtida = () => {
     //se o estado curtido for false
